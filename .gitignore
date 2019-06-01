@@ -59,3 +59,12 @@ typings/
 
 # next.js build output
 .next
+
+# WebStorm
+.idea
+
+# DS_store
+.DS_Store
+
+# node module
+node_modules
