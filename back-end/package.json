@@ -1,5 +1,5 @@
 {
-  "name": "hue-out-ther",
+  "name": "hue-out-there",
   "version": "1.0.0",
   "description": "![CF](http://i.imgur.com/7v5ASc8.png) Hue-out-there ==============================================",
   "main": "main.js",
@@ -23,10 +23,10 @@
   "devDependencies": {},
   "scripts": {
     "start": "node main.js",
-    "watch": "nodemon main.js",
-    "test-watch": "jest --watchAll",
-    "test": "jest --coverage",
-    "dbOn": "mkdir -p ./db && mongod --dbpath ./db",
+    "watch": "../node_modules/.bin/nodemon back-end/main.js",
+    "test-watch": "../node_modules/.bin/jest --watchAll",
+    "test": "../node_modules/.bin/jest --coverage",
+    "dbOn": "mkdir -p db && mongod --dbpath ./db",
     "dbOff": "killall mongod"
   },
   "jest": {
@@ -34,13 +34,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/erikmjohnson/hue-out-ther.git"
+    "url": "git+https://github.com/alistairblake/hue-out-there.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/erikmjohnson/hue-out-ther/issues"
+    "url": "https://github.com/alistairblake/hue-out-there/issues"
   },
-  "homepage": "https://github.com/erikmjohnson/hue-out-ther#readme"
+  "homepage": "https://github.com/alistairblake/hue-out-there#readme"
 }
